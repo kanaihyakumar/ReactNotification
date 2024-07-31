@@ -2,7 +2,7 @@ import socket
 from plyer import notification
 
 HOST = 'SERVER_IP_ADDRESS'  # Replace with the IP of the main computer
-PORT = 5000
+PORT = 5010
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((HOST, PORT))
